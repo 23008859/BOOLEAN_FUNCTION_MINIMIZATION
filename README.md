@@ -33,9 +33,13 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+
+
+Developed by: ROSHINI S
+RegisterNumber:212223230174
+Department: AIDS
 ```
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. */
 module ex02(a,b,c,d,w,x,y,z,f1,f2); 
 input a,b,c,d,w,x,y,z;
 output f1,f2; 
@@ -52,11 +56,7 @@ not(adash,a); not(bdash,b); not(cdash,c);
  and(u,w,y); 
  or(f2,s,t,u);
  endmodule
-```
-
-Developed by: ROSHINI S
-RegisterNumber:212223230174
-Department: AIDS
+ ```
 
 
 **RTL realization**
